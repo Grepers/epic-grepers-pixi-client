@@ -1,0 +1,32 @@
+{
+  "name": "ds-demo-spaceshooter",
+  "version": "1.0.0",
+  "description": "A simple multiplayer spaceshooter",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors --host 0.0.0.0",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepstreamIO/ds-demo-spaceshooter.git"
+  },
+  "author": "deepstreamhub",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deepstreamIO/ds-demo-spaceshooter/issues"
+  },
+  "homepage": "https://github.com/deepstreamIO/ds-demo-spaceshooter#readme",
+  "dependencies": {
+    "deepstream.io-client-js": "^1.1.1",
+    "jquery": "^3.1.0",
+    "package.json": "^2.0.1",
+    "pixi.js": "3.0.11"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack-cli": "2.0.10"
+  }
+}
